@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_framework_mvc",
+  "version": "1.0.0",
+  "description": "Mohamed Samir vesion of MVC framework in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mvc",
+    "nodejs"
+  ],
+  "author": "Mohamed Samir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
