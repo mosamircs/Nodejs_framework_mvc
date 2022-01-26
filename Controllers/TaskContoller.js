@@ -1,4 +1,4 @@
-const Task = require("../Models/Task");
+const Task = require("../models/Task");
 class TaskController{
     /*
      * 
@@ -8,3 +8,6 @@ class TaskController{
         return Task.task;
     }
 }
+//test task
+// task1 = new TaskController();
+// console.log(task1.index());

@@ -1,14 +1,24 @@
-const User = require("../Models/User");
+// const User = require("../Models/User");
 class UserController {
+    
+    constructor(name, email,password) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+    }
+
     /**
      * 
-     * @returns json object of title and body of task
+     * @returns json object 
      */
     index() {
-        this.task = {
-            title: this.title,
-            body: this.body
+        this.user = {
+        name: this.name,
+        email: this.email,
+        password : this.password
         }
-        return this.task;
+        return this.user;
     }
 }
+var user1 = new UserController("samir", "mail", 2131231);
+console.log(user1.index());
