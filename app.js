@@ -1,2 +1,1 @@
-const Routes = require("./Routes/Routes");
-const App = Routes();
+const Routes = require("./Routes/Router");
